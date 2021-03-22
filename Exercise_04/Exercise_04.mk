@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Exercise_02
+ProjectName            :=Exercise_04
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/home/carlos/Documents/Lab_Introduction_to_threads
-ProjectPath            :=/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_02
-IntermediateDirectory  :=../build-$(ConfigurationName)/Exercise_02
-OutDir                 :=../build-$(ConfigurationName)/Exercise_02
+ProjectPath            :=/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_04
+IntermediateDirectory  :=../build-$(ConfigurationName)/Exercise_04
+OutDir                 :=../build-$(ConfigurationName)/Exercise_04
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Exercise_02/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Exercise_04/main.c$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Exercise_02/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Exercise_02"
+$(OutputFile): ../build-$(ConfigurationName)/Exercise_04/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Exercise_04"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Exercise_02"
+	@mkdir -p "../build-$(ConfigurationName)/Exercise_04"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Exercise_02/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Exercise_02"
+../build-$(ConfigurationName)/Exercise_04/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Exercise_04"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Exercise_02/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Exercise_02/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_02/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Exercise_02/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Exercise_02/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Exercise_02/main.c$(DependSuffix) -MM main.c
+../build-$(ConfigurationName)/Exercise_04/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Exercise_04/main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_04/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Exercise_04/main.c$(DependSuffix): main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Exercise_04/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Exercise_04/main.c$(DependSuffix) -MM main.c
 
-../build-$(ConfigurationName)/Exercise_02/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Exercise_02/main.c$(PreprocessSuffix) main.c
+../build-$(ConfigurationName)/Exercise_04/main.c$(PreprocessSuffix): main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Exercise_04/main.c$(PreprocessSuffix) main.c
 
 
--include ../build-$(ConfigurationName)/Exercise_02//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Exercise_04//*$(DependSuffix)
 ##
 ## Clean
 ##
