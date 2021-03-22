@@ -1,7 +1,22 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <stdlib.h>
 
-int main(int argc, char **argv)
+#define MAX_THREAD 10
+
+typedef struct {
+        int id;
+} parm;
+
+void *hello(void *arg)
 {
-	printf("hello world\n");
-	return 0;
+        
+        return (NULL);
+}
+
+int main (int argc, char ** argv) {
+	
+  exit(0);
+
 }

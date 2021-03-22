@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Lab_Introduction_to_threads" Database="" Version="10000">
   <Project Name="Exercise_01" Path="Exercise_01/Exercise_01.project" Active="No"/>
-  <Project Name="Exercise_02" Path="Exercise_02/Exercise_02.project" Active="Yes"/>
-  <Project Name="Exercise_03" Path="Exercise_03/Exercise_03.project" Active="No"/>
+  <Project Name="Exercise_02" Path="Exercise_02/Exercise_02.project" Active="No"/>
+  <Project Name="Exercise_03" Path="Exercise_03/Exercise_03.project" Active="Yes"/>
   <Project Name="Exercise_04" Path="Exercise_04/Exercise_04.project" Active="No"/>
   <Project Name="Exercise_05" Path="Exercise_05/Exercise_05.project" Active="No"/>
   <BuildMatrix>

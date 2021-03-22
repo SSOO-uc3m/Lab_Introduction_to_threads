@@ -4,7 +4,7 @@
   <wxString Value="/home/carlos/Documents/Lab_Introduction_to_threads/Lab_Introduction_to_threads.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_02/main.c" Name="FileName"/>
+      <wxString Value="/home/carlos/Documents/Lab_Introduction_to_threads/Exercise_01/main.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>

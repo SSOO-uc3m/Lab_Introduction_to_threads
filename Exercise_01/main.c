@@ -1,7 +1,16 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <stdlib.h>
 
-int main(int argc, char **argv)
-{
-	printf("hello world\n");
-	return 0;
+void * thread_function (void *arg){
+
+  return NULL;
+}
+
+
+int main (int argc, char ** argv) {
+	
+  exit(0);
+
 }
