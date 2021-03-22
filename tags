@@ -1,0 +1,15 @@
+__stub___compat_bdflush	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_bdflush$/;"	macro	line:10
+__stub___compat_create_module	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_create_module$/;"	macro	line:11
+__stub___compat_get_kernel_syms	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_get_kernel_syms$/;"	macro	line:12
+__stub___compat_nfsservctl	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_nfsservctl$/;"	macro	line:13
+__stub___compat_query_module	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_query_module$/;"	macro	line:14
+__stub___compat_uselib	/usr/include/gnu/stubs-x32.h	/^#define __stub___compat_uselib$/;"	macro	line:15
+__stub_chflags	/usr/include/gnu/stubs-x32.h	/^#define __stub_chflags$/;"	macro	line:16
+__stub_fchflags	/usr/include/gnu/stubs-x32.h	/^#define __stub_fchflags$/;"	macro	line:17
+__stub_gtty	/usr/include/gnu/stubs-x32.h	/^#define __stub_gtty$/;"	macro	line:18
+__stub_lchmod	/usr/include/gnu/stubs-x32.h	/^#define __stub_lchmod$/;"	macro	line:19
+__stub_revoke	/usr/include/gnu/stubs-x32.h	/^#define __stub_revoke$/;"	macro	line:20
+__stub_setlogin	/usr/include/gnu/stubs-x32.h	/^#define __stub_setlogin$/;"	macro	line:21
+__stub_sigreturn	/usr/include/gnu/stubs-x32.h	/^#define __stub_sigreturn$/;"	macro	line:22
+__stub_sstk	/usr/include/gnu/stubs-x32.h	/^#define __stub_sstk$/;"	macro	line:23
+__stub_stty	/usr/include/gnu/stubs-x32.h	/^#define __stub_stty$/;"	macro	line:24
